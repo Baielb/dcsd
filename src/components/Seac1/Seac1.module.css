@@ -1,0 +1,84 @@
+.wrapper {
+   width: 1240px;
+}
+.main img{
+    width: 1240px;
+    object-fit: cover;
+}
+
+.main_text {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 650px;
+    left: 150px;
+}
+.main_text h4 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 37.77px;
+    letter-spacing: 0.16px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.main_text h1 {
+    color: rgb(255, 255, 255);
+    font-family: Core Sans C;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 93.62px;
+    letter-spacing: 0.31px;
+    margin: 0;
+}
+/* --------------B U T T O N  */
+.btn {
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  width: 250px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+
+.btn_three {
+    color: #FFF;
+    transition: all 0.5s;
+    position: relative;
+}
+.btn_three::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(255,255,255, 0.3);
+    transition: all 0.3s;
+    border-radius: 8px;
+}
+.btn_three:hover::before {
+    opacity: 0 ;
+    transform: scale(0.5,0.5);
+}
+.btn_three::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border: 1px solid rgba(255,255,255);
+    transform: scale(1.2,1.2);
+    border-radius: 8px;
+    
+}
+.btn_three:hover::after {
+    opacity: 1;     
+    transform: scale(1,1);
+}

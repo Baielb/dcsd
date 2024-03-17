@@ -1,0 +1,10 @@
+.head{
+    display: flex;
+    align-items: center;
+}
+.head_icon{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 100px;
+}
