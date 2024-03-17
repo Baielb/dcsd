@@ -1,0 +1,10 @@
+.Box__flex {
+    padding: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.position_ab {
+  width: 466px;
+  height: 282px;
+}

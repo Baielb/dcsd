@@ -1,0 +1,18 @@
+.imageContainer {
+  position: relative;
+  display: inline-block;
+}
+.textOverlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; /* Цвет текста на изображении */
+}
+
+.textOverlay h4,
+.textOverlay h1,
+.textOverlay button {
+  margin: 0;
+}
